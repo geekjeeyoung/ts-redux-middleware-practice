@@ -1,8 +1,8 @@
-import React from 'react';
-import CounterContainer from './containers/CounterContainer';
+import React from "react";
+import GithubProfileLoader from "./containers/GithubProfileLoader";
 
 const App: React.FC = () => {
-  return <CounterContainer />;
+  return <GithubProfileLoader />;
 };
 
 export default App;
